@@ -14,6 +14,8 @@
 		52D5E5A321314A3B009924C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D5E5A121314A3B009924C0 /* LaunchScreen.storyboard */; };
 		52D5E5AE21314A3B009924C0 /* UIScrollView_p1_v3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5E5AD21314A3B009924C0 /* UIScrollView_p1_v3Tests.swift */; };
 		52D5E5B921314A3B009924C0 /* UIScrollView_p1_v3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5E5B821314A3B009924C0 /* UIScrollView_p1_v3UITests.swift */; };
+		52D5E5C721314A46009924C0 /* dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52D5E5C621314A46009924C0 /* dark.jpg */; };
+		52D5E5C921314ADB009924C0 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5E5C821314ADB009924C0 /* ScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		52D5E5B421314A3B009924C0 /* UIScrollView_p1_v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollView_p1_v3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D5E5B821314A3B009924C0 /* UIScrollView_p1_v3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView_p1_v3UITests.swift; sourceTree = "<group>"; };
 		52D5E5BA21314A3B009924C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D5E5C621314A46009924C0 /* dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dark.jpg; sourceTree = "<group>"; };
+		52D5E5C821314ADB009924C0 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		52D5E59721314A3B009924C0 /* UIScrollView_p1_v3 */ = {
 			isa = PBXGroup;
 			children = (
+				52D5E5C621314A46009924C0 /* dark.jpg */,
 				52D5E59821314A3B009924C0 /* AppDelegate.swift */,
 				52D5E59A21314A3B009924C0 /* ViewController.swift */,
 				52D5E59C21314A3B009924C0 /* Main.storyboard */,
 				52D5E59F21314A3B009924C0 /* Assets.xcassets */,
 				52D5E5A121314A3B009924C0 /* LaunchScreen.storyboard */,
 				52D5E5A421314A3B009924C0 /* Info.plist */,
+				52D5E5C821314ADB009924C0 /* ScrollView.swift */,
 			);
 			path = UIScrollView_p1_v3;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			files = (
 				52D5E5A321314A3B009924C0 /* LaunchScreen.storyboard in Resources */,
 				52D5E5A021314A3B009924C0 /* Assets.xcassets in Resources */,
+				52D5E5C721314A46009924C0 /* dark.jpg in Resources */,
 				52D5E59E21314A3B009924C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				52D5E59B21314A3B009924C0 /* ViewController.swift in Sources */,
 				52D5E59921314A3B009924C0 /* AppDelegate.swift in Sources */,
+				52D5E5C921314ADB009924C0 /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
